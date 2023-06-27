@@ -1,0 +1,86 @@
+TY  - JOUR
+AB  - Human pose estimation localizes body keypoints to accurately recognizing the postures of individuals given an image. This step is a crucial prerequisite to multiple tasks of computer vision which include human action recognition, human tracking, human-computer interaction, gaming, sign languages, and video surveillance. Therefore, we present this survey article to fill the knowledge gap and shed light on the researches of 2D human pose estimation. A brief introduction is followed by classifying it as a single or multi-person pose estimation based on the number of people needed to be tracked. Then gradually the approaches used in human pose estimation are described before listing some applications and also flaws facing in pose estimation. Following that, a center of attention is given on briefly discussing researches with a significant effect on human pose estimation and examine the novelty, motivation, architecture, the procedures (working principles) of each model together with its practical application and drawbacks, datasets implemented, as well as the evaluation metrics used to evaluate the model. This review is presented as a baseline for newcomers and guides researchers to discover new models by observing the procedure and architecture flaws of existing researches.
+AU  - Munea, T L
+AU  - Jembre, Y Z
+AU  - Weldegebriel, H T
+AU  - Chen, L
+AU  - Huang, C
+AU  - Yang, C
+DO  - 10.1109/ACCESS.2020.3010248
+PY  - 2020
+SP  - 133330
+EP  - 133348
+TI  - The Progress of Human Pose Estimation: A Survey and Taxonomy of Models Applied in 2D Human Pose Estimation
+T2  - 2022 IEEE World Conference on Applied Intelligence and Computing (AIC)
+UR  - https://ieeexplore.ieee.org/document/9144178
+VL  - 8
+ER  -
+TY  - CONF
+AB  - We propose the DeepPose-based pose estimation system that is flexible with the change of bounding-box range for top-view images. Our purpose is to link person detection system and pose estimation system. We introduce Bounding-box Curriculum Learning (BCL) and Recurrent Pose Estimation (RPE). BCL is a learning technique of CNN inspired from Curriculum Learning. RPE is a recurrent process of pose estimation that fixes the bounding-box range in response to the estimated results. We show the effect of proposed methods compared to normal learned CNN-based pose estimator on our original top-view dataset.
+AU  - Go, Ryuji
+AU  - Aoki, Yoshimitsu
+DO  - 10.1109/GCCE.2016.7800406
+PY  - 2016
+SP  - 1
+EP  - 4
+TI  - Flexible top-view human pose estimation for detection system via CNN
+T2  - 2016 IEEE 5th Global Conference on Consumer Electronics
+UR  - https://ieeexplore.ieee.org/document/7800406
+ER  -
+TY  - JOUR
+AB  - Yoga aims at the development of an all-round personality, involving the synchronization of mind, body, and spirit. Incorrect postures or improper ways of performing yoga can lead to serious damage to one's physique and brain. In the past, yoga was performed only under the supervision of accomplished Gurus. However, in today's busy world with time and place constraints, finding a qualified instructor can be challenging. Therefore, it is crucial to adopt the right yoga procedures from the beginning. This paper proposes the use of deep learning techniques to detect yoga postures and provide feedback or corrections when needed. The authors have created a model using OpenPose, a real-time multi-person system for pose estimation, to estimate human poses. They compare the results obtained by the model for 2D and 3D points of the image and determine if adding more features to the dataset improves the model's accuracy. Additionally, a simple neural network model is introduced to analyze input images and determine if the performed pose is correct.
+AU  - Narayanan, S. Sankara
+AU  - Misra, Devendra Kumar
+AU  - Arora, Kartik
+AU  - Rai, Harsh
+PY  - 2021
+TI  - Yoga Pose Detection Using Deep Learning Techniques
+T2  - SSRN - Proceedings of the International Conference on Innovative Computing & Communication (ICICC) 2021
+UR  - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3842656#
+ER  -
+TY  - JOUR
+AB  - This paper presents a robust human posture and body parts detection method under a specific application scenario known as in-bed pose estimation. Although the human pose estimation for various computer vision (CV) applications has been studied extensively in the last few decades, the in-bed pose estimation using camera-based vision methods has been ignored by the CV community because it is assumed to be identical to the general purpose pose estimation problems. However, the in-bed pose estimation has its own specialized aspects and comes with specific challenges, including the notable differences in lighting conditions throughout the day and having pose distribution different from the common human surveillance viewpoint. In this paper, we demonstrate that these challenges significantly reduce the effectiveness of the existing general purpose pose estimation models. In order to address the lighting variation challenge, the infrared selective (IRS) image acquisition technique is proposed to provide uniform quality data under various lighting conditions. In addition, to deal with the unconventional pose perspective, a 2- end histogram of oriented gradient (HOG) rectification method is presented. The deep learning framework proves to be the most effective model in human pose estimation; however, the lack of large public dataset for in-bed poses prevents us from using a large network from scratch. In this paper, we explored the idea of employing a pre-trained convolutional neural network (CNN) model trained on large public datasets of general human poses and fine-tuning the model using our own shallow (limited in size and different in perspective and color) in-bed IRS dataset. We developed an IRS imaging system and collected IRS image data from several realistic life-size mannequins in a simulated hospital room environment. A pre-trained CNN called convolutional pose machine (CPM) was fine-tuned for in-bed pose estimation by re-training its specific intermediate layers. Using the HOG rectification method, the pose estimation performance of CPM improved significantly by 26.4% in the probability of correct key-point (PCK) criteria at PCK0.1 compared to the model without such rectification. Even testing with only well aligned in-bed pose images, our fine-tuned model still surpassed the traditionally tuned CNN by another 16.6% increase in pose estimation accuracy.
+AU  - Liu, S
+AU  - Yin, Y
+AU  - Ostadabbas, S
+DO  - 10.1109/JTEHM.2019.2892970
+PY  - 2019
+SP  - 1
+EP  - 12
+TI  - In-Bed Pose Estimation: Deep Learning With Shallow Dataset
+T2  - IEEE Journal of Translational Engineering in Health and Medicine
+UR  - https://ieeexplore.ieee.org/document/8611350?denied=
+VL  - 7
+ER  -
+TY  - CONF
+AB  - While the more learning data the better the recognition, increase in the data causes an expensive computational cost in learning. This paper proposes how to decrease the computational cost by appropriately selecting the learning data. In particular, we put our focus on learning for human pose estimation in still images. Three kinds of methods are proposed for learning data selection in this paper. The first one divides all data into several clusters in a feature space for avoiding duplication of similar data. The second one selects the data based on their distance from a discriminant plane for efficiently updating it. Third one merges those two methods as well as pruning in optimized pose search. Experimental results show that the proposed method can decrease the learning time by 79 % with less decrease in pose estimation accuracy.
+AU  - Ukita, N
+AU  - Matsuyama, Y
+AU  - Hagita, N
+DO  - 10.1109/MLSP.2014.6958917
+PY  - 2014
+SN  - 2378-928X
+SP  - 1
+EP  - 6
+TI  - Efficient modeling by selecting learning samples in human pose estimation
+T2  - 2014 IEEE International Workshop on Machine Learning for Signal Processing (MLSP)
+UR  - https://ieeexplore.ieee.org/document/6958917
+ER  -
+TY  - JOUR
+AB  - If we search online for workout applications, we get many results with multiple functionalities. These applications provide many workout programs which help us to perform it on our own. But somewhere those programs cannot improve user's posture and accuracy. Those applications aim to provide workouts only, but sometimes following these workouts in the wrong way may lead to short-term or permanent injuries. To avoid such a problem, we proposed a system for workout analysis using the pose classification technique. The objective is to develop an application that can assist people in performing various exercises without getting injured. An application with the pre-trained workout set with the help of pose estimation technique. We proposed to use the Blaze-pose pose estimation module developed by MediaPipe. This neural network provides 33 body-points which are more than enough to capture the movements of the user. The pose estimation model is generally used to classify the different movements. We are using such technology with some advancement to provide accuracy of user's workout which will provide state of art results. The application will not just provide workouts to users but also it will monitor the real-time movements of users and also provide accuracy to users.
+AU  - Dawange, Swapnil
+AU  - Chavan, Akash
+AU  - Dusane, Abhijit
+KW  - Blaze pose
+KW  - CNN
+KW  - Index Terms-Mediapipe
+KW  - Machine learning
+KW  - Pose estimation
+PY  - 2021
+SP  - 2320
+EP  - 2882
+TI  - Workout Analysis Using Mediapipe BlazePose and Machine Learning
+T2  - International Journal Of Creative Research Thoughts (IJCRT)
+UR  - https://ijcrt.org/papers/IJCRT2112453.pdf
+VL  - 9
+ER  -
